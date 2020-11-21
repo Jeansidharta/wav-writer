@@ -1,0 +1,19 @@
+{
+	"name": "music",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --transpile-only src/index.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^14.14.9",
+		"ts-node-dev": "^1.0.0",
+		"typescript": "^4.1.2"
+	},
+	"dependencies": {
+		"wav": "^1.0.2"
+	}
+}
